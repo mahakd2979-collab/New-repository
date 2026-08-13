@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>NAME</label>
+        <br/>
+        <input placeholder="Enter your name"required/>
+        <br/>
+        <br/>
+        <label>EMAIL</label>
+        <br/>
+        <input placeholder="Enter your email"type="email"/>
+        <br/>
+        <br/>
+        <label>DATE OF BIRTH</label>
+        <br/>
+        <input placeholder="Enter your date of birth" type="date"/>
+        <br/>
+        <br/>
+        <label>PHONE</label>
+        <br/>
+        <input placeholder="Enter your phone number" type="number"/>
+        <br/>
+        <br/>
+        <label>DESCRIPTION</label>
+        <br/>
+        <textarea placeholder="Enter your description"></textarea>
+        <br/>
+        <br/>
+        <label>SUBJECT</label>
+        <select>
+            <option>Maths</option>
+            <option>Science</option>
+            <option>English</option>
+        </select>
+        <br/>
+        <input type="radio" name="gender" value="male"/>
+        <label>MALE</label>
+        <input type="radio" name="gender" value="female"/>
+        <label>FEMALE</label>
+        <br/>
+        <input placeholder="Enter your Phone NO" type="checkbox"/>
+        <label>AGREE TO TERMS AND CONDITIONS</label>
+        <br/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
